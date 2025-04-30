@@ -73,7 +73,6 @@ export const config = {
       url: "https://r4l.deno.dev/https://linux.do/top.rss?period=monthly",
       category: "论坛",
     },
-    [
   {
     name: "少数派",
     url: "https://sspai.com/feed",
@@ -1294,7 +1293,6 @@ export const config = {
     url: "https://wirelesswire.jp/feed/",
     category: "Tech",
   }
-]
   ],
   maxItemsPerFeed: 30,
   dataPath: "./data",
