@@ -14,6 +14,46 @@
 export const config = {
   sources: [
     {
+      name: "NHK 主要news",
+      url: "https://www.nhk.or.jp/rss/news/cat0.xml",
+      category: "NHK",
+    },
+    {
+      name: "NHK 社会",
+      url: "https://www.nhk.or.jp/rss/news/cat1.xml",
+      category: "NHK",
+    },
+    {
+      name: "NHK 科学 医疗",
+      url: "https://www.nhk.or.jp/rss/news/cat3.xml",
+      category: "NHK",
+    },
+    {
+      name: "NHK 政治",
+      url: "https://www.nhk.or.jp/rss/news/cat4.xml",
+      category: "NHK",
+    },
+    {
+      name: "NHK 经济",
+      url: "https://www.nhk.or.jp/rss/news/cat5.xml",
+      category: "NHK",
+    },
+    {
+      name: "NHK 国际",
+      url: "https://www.nhk.or.jp/rss/news/cat6.xml",
+      category: "NHK",
+    },
+    {
+      name: "NHK 体育",
+      url: "https://www.nhk.or.jp/rss/news/cat7.xml",
+      category: "NHK",
+    },
+    {
+      name: "NHK 文化 娱乐",
+      url: "https://www.nhk.or.jp/rss/news/cat2.xml",
+      category: "NHK",
+    },
+    {
       name: "Hacker News 近期最佳",
       url: "https://hnrss.org/best",
       category: "科技资讯",
